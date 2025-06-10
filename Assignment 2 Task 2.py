@@ -1,9 +1,7 @@
 # Task 2:
-    
 
-Num1 = int(input("Enter the First number: "))
-Num2 = int(input("Enter the Second number: "))
+
 total = 0
-for i in range (Num1, Num2 + 1):
+for i in range (0, 51):
     total += i
-print("Total Sum of",Num1,"and",Num2,"is:",total)
+print("Total Sum of 1 and 50 is" ,total)
